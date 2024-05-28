@@ -34,7 +34,5 @@ const StyledMapContainer = styled.div`
 `;
 const StyledMapWrapper = styled.div`
   width: 100%;
-  /* margin: 0 auto; */
   height: 50vh;
-  background-color: blue;
 `;
