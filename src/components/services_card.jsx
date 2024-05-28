@@ -23,7 +23,7 @@ const ServiceCard = ({ icon, header, body, id }) => {
   return (
     <motion.div
       ref={ref}
-      className="py-7 my-1"
+      className=" my-1"
       initial={{ opacity: 0, y: 100 }}
       animate={controls}
       transition={{ duration: 1 }}
