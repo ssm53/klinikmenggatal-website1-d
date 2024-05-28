@@ -45,18 +45,7 @@ const SendUsInquiry = () => {
 
         <div>
           <label htmlFor="message">Message</label>
-          <input
-            type="text"
-            placeholder="Message"
-            style={{
-              width: "100%",
-              height: "8rem",
-              padding: "10px",
-              border: "none",
-              borderRadius: "4px",
-              outline: "none",
-            }}
-          />
+          <StyledMessageinput type="text" placeholder="Message" />
         </div>
         <div className="flex justify-center pt-10">
           <StyledButton>Send Message</StyledButton>
@@ -88,4 +77,15 @@ const StyledButton = styled(Button)`
   &:hover {
     background-color: #003366;
   }
+`;
+
+const StyledMessageinput = styled.input`
+  width: 100%;
+  height: 8rem;
+  padding: 10px;
+  padding-bottom: 6rem;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  color: black;
 `;
