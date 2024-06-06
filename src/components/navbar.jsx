@@ -16,7 +16,7 @@ import {
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Logo from "../../public/svgs/Logo.svg";
-
+// Navbar
 const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const menuItems = [
