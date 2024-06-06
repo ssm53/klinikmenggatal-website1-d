@@ -3,11 +3,11 @@ import GoogleMapReact from "google-map-react";
 import styled from "styled-components";
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-export default function Map() {
+export default function MapThree() {
   const defaultProps = {
     center: {
-      lat: 5.94995,
-      lng: 116.09275,
+      lat: 5.93393,
+      lng: 116.06616,
     },
     zoom: 18,
   };

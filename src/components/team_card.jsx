@@ -18,28 +18,28 @@ const TeamCardList = () => {
   }, [controls, inView]);
   const cardsData = [
     {
-      title: "Dr John Doe",
+      title: "Dr Jagajeet Singh",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
       imageUrl: "./svgs/team1.jpg",
     },
     {
-      title: "Dr John Doe",
+      title: "Dr Shelly Bardwaj",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
       imageUrl: "./svgs/team2.jpg",
     },
     {
-      title: "Dr John Doe",
+      title: "Dr Ameer",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
       imageUrl: "./svgs/team3.jpg",
     },
     {
-      title: "Dr John Doe",
+      title: "Dr X",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",

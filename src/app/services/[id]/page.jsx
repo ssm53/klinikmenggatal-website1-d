@@ -20,7 +20,7 @@ const ServicesPage = ({ params }) => {
           <div className="text-sec md:w-1/2">
             <div>
               <StyledH1 className="text-3xl font-semibold py-4">
-                Chronic Disease Management
+                {serviceData.header}
                 <img
                   src="/svgs/verctor.png"
                   alt="vector"
@@ -29,7 +29,8 @@ const ServicesPage = ({ params }) => {
               </StyledH1>
               <StyledUl>
                 <StyledListWrapper className="mb-2 py-3">
-                  <li className="py-3 ">
+                  <p>{serviceData.jobs1}</p>
+                  {/* <li className="py-3 ">
                     <StyledSpan>Item ID</StyledSpan> : {serviceData.id} sit amet
                     consectetur adipisicing elit. Ut velit dolorem
                   </li>
@@ -38,9 +39,21 @@ const ServicesPage = ({ params }) => {
                   </li>
                   <li className="py-3 ">
                     <StyledSpan>Body</StyledSpan> : {serviceData.body}
+                  </li> */}
+                  {/* <li className="py-3 ">
+                    <StyledSpan>{serviceData.jobs}</StyledSpan> : {serviceData.jobs}
+                  </li> */}
+                  <li className="py-3 ">
+                    <StyledSpan>{serviceData.jobs2}</StyledSpan>
                   </li>
                   <li className="py-3 ">
-                    <StyledSpan>Job</StyledSpan> : {serviceData.jobs}
+                    <StyledSpan>{serviceData.jobs3}</StyledSpan>
+                  </li>
+                  <li className="py-3 ">
+                    <StyledSpan>{serviceData.jobs4}</StyledSpan>
+                  </li>
+                  <li className="py-3 ">
+                    <StyledSpan>{serviceData.jobs5}</StyledSpan>
                   </li>
                 </StyledListWrapper>
               </StyledUl>
@@ -60,8 +73,6 @@ export default ServicesPage;
 const StyledWrapper = styled.div`
   padding: 7rem 0;
   padding-top: 10rem;
-  background-color: #1e1e1e;
-  color: white;
   @media (max-width: 768px) {
     .flex-wrap {
       flex-direction: column;
@@ -86,10 +97,12 @@ const StyledListWrapper = styled.div`
 `;
 
 const StyledSpan = styled.span`
+  color: #003466;
   font-size: 22px;
 `;
 
 const StyledH1 = styled.h1`
+  color: #003466;
   @media (max-width: 768px) {
     img {
       width: 100%;

@@ -14,19 +14,17 @@ const Footer = () => {
           <StyledLogoWrapper className="w-1/3">
             <div className="flex flex-col justify-start">
               <div className="logo flex items-center">
-                <img
+                <h2 className="text-lg font-bold">
+                  KLINIK DAN SURGERI HILLTOP
+                </h2>
+                {/* <img
                   src="/svgs/Logo.svg"
                   alt="Logo"
                   className="w-10 h-10 mr-2"
-                />
-                <h2 className="text-lg font-bold">Logo</h2>
+                /> */}
               </div>
 
-              <p className="pt-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt sint repellendus cum nisi mollitia. Quisquam, vel
-                corporis repellat ab quam veritatis illo ullam nihil
-              </p>
+              <p className="pt-8">Serving With Compassion & Care Since 1993.</p>
             </div>
           </StyledLogoWrapper>
 
@@ -35,23 +33,23 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Features</h3>
             <ul className="list pt-6">
               <li className="font-semibold">
-                <a href="#" className="text-black">
+                <a href="#services" className="text-black">
                   Services
                 </a>
               </li>
               <li className="pt-4 font-semibold">
-                <a href="#" className="text-black">
+                <a href="#ourteam" className="text-black">
                   Our Team
                 </a>
               </li>
               <li className="pt-4 font-semibold">
-                <a href="#" className="text-black">
+                <a href="#contactus" className="text-black">
                   Contact Us
                 </a>
               </li>
               <li className="pt-4 font-semibold">
-                <a href="#" className="text-black">
-                  About Us
+                <a href="#faqs" className="text-black">
+                  FAQs
                 </a>
               </li>
             </ul>
@@ -61,18 +59,18 @@ const Footer = () => {
           <StyledFollowusWrapper className="w-1/3 ">
             <h3 className="text-lg font-bold mb-4">Follow Us</h3>
             <div className="icons flex pt-8">
-              <a href="#">
+              <a href="https://www.facebook.com/p/Klinik-Dan-Surgeri-Hilltop-Sdn-Bhd-100079497984505/?locale=ms_MY">
                 <FaFacebook className="w-8 h-8 mr-2" />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <FaTwitter className="w-8 h-8 mr-2" />
-              </a>
-              <a href="#">
+              </a> */}
+              {/* <a href="#">
                 <FaLinkedin className="w-8 h-8 mr-2" />
-              </a>
-              <a href="#">
+              </a> */}
+              {/* <a href="#">
                 <FaInstagram className="w-8 h-8 mr-2" />
-              </a>
+              </a> */}
             </div>
           </StyledFollowusWrapper>
         </StyledWrapper>

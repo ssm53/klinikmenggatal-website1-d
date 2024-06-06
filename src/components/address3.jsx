@@ -4,7 +4,7 @@ import { FiMapPin, FiPhone, FiMail, FiMessageSquare } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdAccessTime } from "react-icons/md";
 
-const Address = () => {
+const AddressThree = () => {
   return (
     <StyledWrapper className="pt-14 px-6 pb-5">
       <StyledAddressContainer className="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between">
@@ -16,8 +16,8 @@ const Address = () => {
               <p>Location</p>
             </div>
             <p>
-              Jalan Lintas, Taman Far East,
-              <br /> 88300, Kota Kinabalu, Sabah
+              Pasok Communication, 6, Lorong Bunga Tanjung 2, Kepayan Ridge
+              <br /> 88200, Kota Kinabalu, Sabah.
             </p>
           </div>
           <div className="pt-6">
@@ -25,15 +25,16 @@ const Address = () => {
               <MdAccessTime className="mr-2" />
               <p>Opening Hours</p>
             </div>
-            <p>Monday-Sunday : 8AM - 11PM</p>
+            <p>Monday-Saturday: 8AM - 6PM</p>
             <p>Public Holidays: Closed</p>
           </div>
+
           <div className="pt-6">
             <div className="flex items-center font-bold">
               <FiPhone className="mr-2" />
               <p>Phone</p>
             </div>
-            <p>088-242171</p>
+            <p>088-246331</p>
           </div>
           <div className="pt-6">
             <div className="flex items-center font-bold">
@@ -67,7 +68,7 @@ const Address = () => {
   );
 };
 
-export default Address;
+export default AddressThree;
 const StyledWrapper = styled.div`
   width: 90%;
 `;

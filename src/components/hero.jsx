@@ -15,7 +15,7 @@ const Hero = () => {
           }}
           className="font-normal text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-8xl"
         >
-          Health Is
+          Serving With
         </motion.h2>
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -26,7 +26,7 @@ const Hero = () => {
           }}
           className="font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl  xl:text-10xl"
         >
-          LOVE, COMPASSION
+          COMPASSION & CARE
         </motion.h2>
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
@@ -37,7 +37,7 @@ const Hero = () => {
           }}
           className="font-normal text-4xl sm:text-5xl md:text-5xl lg:text-6xl  xl:text-8xl"
         >
-          AND CARE
+          Since 1993
         </motion.h2>
       </StyledHeadingContainer>
     </StyledSection>

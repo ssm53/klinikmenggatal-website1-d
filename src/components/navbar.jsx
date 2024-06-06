@@ -72,7 +72,10 @@ const NavbarComponent = () => {
           className="sm:hidden"
         />
         <motion.NavbarBrand>
-          <Image src={Logo} alt="Logo" width={58} height={58} />
+          {/* <Image src={Logo} alt="Logo" width={58} height={58} /> */}
+          <h1 className="text-white text-2xl font-bold">
+            KLINIK DAN SURGERI HILLTOP
+          </h1>
         </motion.NavbarBrand>
       </StyledNavbarItem>
 
