@@ -222,5 +222,10 @@ const MobNavbarMenu = styled(NavbarMenu)`
   .mob-link {
     font-size: 40px;
     color: #000 !important;
+    &:hover {
+      color: #003466;
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
 `;
