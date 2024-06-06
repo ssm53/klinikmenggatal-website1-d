@@ -14,9 +14,7 @@ const Footer = () => {
           <StyledLogoWrapper className="w-1/3">
             <div className="flex flex-col justify-start">
               <div className="logo flex items-center">
-                <h2 className="text-lg font-bold">
-                  KLINIK DAN SURGERI HILLTOP
-                </h2>
+                <h2 className="text-lg font-bold">KLINIK MENGGATAL</h2>
                 {/* <img
                   src="/svgs/Logo.svg"
                   alt="Logo"
@@ -24,7 +22,7 @@ const Footer = () => {
                 /> */}
               </div>
 
-              <p className="pt-8">Serving With Compassion & Care Since 1993.</p>
+              <p className="pt-8">Affordable Healthcare For All.</p>
             </div>
           </StyledLogoWrapper>
 
@@ -59,18 +57,18 @@ const Footer = () => {
           <StyledFollowusWrapper className="w-1/3 ">
             <h3 className="text-lg font-bold mb-4">Follow Us</h3>
             <div className="icons flex pt-8">
-              <a href="https://www.facebook.com/p/Klinik-Dan-Surgeri-Hilltop-Sdn-Bhd-100079497984505/?locale=ms_MY">
+              {/* <a href="https://www.facebook.com/p/Klinik-Dan-Surgeri-Hilltop-Sdn-Bhd-100079497984505/?locale=ms_MY">
                 <FaFacebook className="w-8 h-8 mr-2" />
-              </a>
+              </a> */}
               {/* <a href="#">
                 <FaTwitter className="w-8 h-8 mr-2" />
               </a> */}
               {/* <a href="#">
                 <FaLinkedin className="w-8 h-8 mr-2" />
               </a> */}
-              {/* <a href="#">
+              <a href="https://www.instagram.com/klinik_menggatal_dr_je/?fbclid=IwAR1_GtcrqYAd8l-u7ymLKdFHPn2dlSjfZrCJedPk2V_MgkNqeee2pr0DMXY">
                 <FaInstagram className="w-8 h-8 mr-2" />
-              </a> */}
+              </a>
             </div>
           </StyledFollowusWrapper>
         </StyledWrapper>

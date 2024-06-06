@@ -16,8 +16,8 @@ const Address = () => {
               <p>Location</p>
             </div>
             <p>
-              Jalan Lintas, Taman Far East,
-              <br /> 88300, Kota Kinabalu, Sabah
+              7, 1st Floor, Lorong Pekan Menggatal 1, Menggatal
+              <br /> 88450, Kota Kinabalu, Sabah
             </p>
           </div>
           <div className="pt-6">
@@ -25,42 +25,43 @@ const Address = () => {
               <MdAccessTime className="mr-2" />
               <p>Opening Hours</p>
             </div>
-            <p>Monday-Sunday : 8AM - 11PM</p>
-            <p>Public Holidays: Closed</p>
+            <p>Monday-Friday : 8AM - 1230PM, 2PM - 5PM</p>
+            <p>Saturday : 8AM - 1230PM</p>
+            <p>Sunday & Public Holiday : Closed</p>
           </div>
           <div className="pt-6">
             <div className="flex items-center font-bold">
               <FiPhone className="mr-2" />
               <p>Phone</p>
             </div>
-            <p>088-242171</p>
+            <p>+601167486533</p>
           </div>
           <div className="pt-6">
             <div className="flex items-center font-bold">
               <FiMail className="mr-2" />
               <p>
-                <a href="mailto:kshhilltop@gmail.com" className="blue-hover">
+                <a href="mailto:klinikX@gmail.com" className="blue-hover">
                   Email
                 </a>
               </p>
             </div>
-            <a href="mailto:kshhilltop@gmail.com" className="blue-hover">
-              kshhilltop@gmail.com
+            <a href="mailto:klinikX@gmail.com" className="blue-hover">
+              klinikX@gmail.com
             </a>
           </div>
-          {/* <div className=" pt-6 ">
+          <div className=" pt-6 ">
             <div className="flex items-center font-bold">
               <FaWhatsapp className="mr-2" />
               <p>
-                <a href="https://wa.me/+60123397028" className="blue-hover">
+                <a href="https://wa.me/+61167486533" className="blue-hover">
                   WhatsApp
                 </a>
               </p>
             </div>
-            <a href="https://wa.me/+60123397028" className="blue-hover">
-              +60123397028
+            <a href="https://wa.me/+601167486533" className="blue-hover">
+              +601167486533
             </a>
-          </div> */}
+          </div>
         </div>
       </StyledAddressContainer>
     </StyledWrapper>
