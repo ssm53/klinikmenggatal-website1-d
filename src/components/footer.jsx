@@ -3,6 +3,8 @@ import React from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import styled from "styled-components";
+import Image from "next/image";
+import Logo from "../../public/svgs/klinikmenggatal-logo.jpeg";
 
 const Footer = () => {
   return (
@@ -14,16 +16,18 @@ const Footer = () => {
         <StyledWrapper className="flex justify-between mx-auto">
           <StyledLogoWrapper className="w-1/3">
             <div className="flex flex-col justify-start">
-              <div className="logo flex items-center">
-                <h2 className="text-lg font-bold">KLINIK MENGGATAL</h2>
+              <div className="logo flex flex-col items-center">
+                <Image src={Logo} alt="Logo" width={70} height={70} />
+                <h2 className="text-lg font-bold pt-4">KLINIK MENGGATAL</h2>
                 {/* <img
                   src="/svgs/Logo.svg"
                   alt="Logo"
                   className="w-10 h-10 mr-2"
                 /> */}
+                {/* <p className="pt-8">Affordable Healthcare For All.</p> */}
               </div>
 
-              <p className="pt-8">Affordable Healthcare For All.</p>
+              {/* <p className="pt-8">Affordable Healthcare For All.</p> */}
             </div>
           </StyledLogoWrapper>
 

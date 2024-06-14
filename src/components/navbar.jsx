@@ -73,8 +73,8 @@ const NavbarComponent = () => {
         />
         <motion.NavbarBrand>
           {/* <Image src={Logo} alt="Logo" width={58} height={58} /> */}
-          <Image src={Logo} alt="Logo" width={70} height={70} />
-          {/* <h1 className="text-white text-2xl font-bold">KLINIK MENGGATAL</h1> */}
+          {/* <Image src={Logo} alt="Logo" width={70} height={70} /> */}
+          <h1 className="text-white text-2xl font-bold">KLINIK MENGGATAL</h1>
         </motion.NavbarBrand>
       </StyledNavbarItem>
 
