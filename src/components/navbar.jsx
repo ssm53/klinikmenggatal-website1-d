@@ -15,7 +15,7 @@ import {
 } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Logo from "../../public/svgs/Logo.svg";
+import Logo from "../../public/svgs/klinikmenggatal-logo-trans.png";
 // Navbar
 const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -73,7 +73,8 @@ const NavbarComponent = () => {
         />
         <motion.NavbarBrand>
           {/* <Image src={Logo} alt="Logo" width={58} height={58} /> */}
-          <h1 className="text-white text-2xl font-bold">KLINIK MENGGATAL</h1>
+          <Image src={Logo} alt="Logo" width={70} height={70} />
+          {/* <h1 className="text-white text-2xl font-bold">KLINIK MENGGATAL</h1> */}
         </motion.NavbarBrand>
       </StyledNavbarItem>
 

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
 import styled from "styled-components";
 
 const Footer = () => {
@@ -57,13 +58,16 @@ const Footer = () => {
           <StyledFollowusWrapper className="w-1/3 ">
             <h3 className="text-lg font-bold mb-4">Follow Us</h3>
             <div className="icons flex pt-8">
-              {/* <a href="https://www.facebook.com/p/Klinik-Dan-Surgeri-Hilltop-Sdn-Bhd-100079497984505/?locale=ms_MY">
+              <a href="https://www.facebook.com/profile.php?id=100093680283881">
                 <FaFacebook className="w-8 h-8 mr-2" />
-              </a> */}
+              </a>
+              <a href="https://www.tiktok.com/@klinik_menggatal_dr_je?_t=8nCGR0VRdEl&_r=1">
+                <FaTiktok className="w-8 h-8 mr-2" />
+              </a>
               {/* <a href="#">
                 <FaTwitter className="w-8 h-8 mr-2" />
               </a> */}
-              {/* <a href="#">
+              {/* <a href="https://www.tiktok.com/@klinik_menggatal_dr_je?_t=8nCGR0VRdEl&_r=1">
                 <FaLinkedin className="w-8 h-8 mr-2" />
               </a> */}
               <a href="https://www.instagram.com/klinik_menggatal_dr_je/?fbclid=IwAR1_GtcrqYAd8l-u7ymLKdFHPn2dlSjfZrCJedPk2V_MgkNqeee2pr0DMXY">

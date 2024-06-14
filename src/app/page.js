@@ -20,22 +20,27 @@ const faqs = [
     answer: "38 years. We have been running since 1986.",
   },
   {
+    question: "Is your clinic private or government?",
+    answer:
+      "We are a private GP clinic called Klinik Menggatal. Please note that we are not affiliated with Klinik Kesihatan Menggatal. In our clinic, waiting times on average are much shorter.",
+  },
+  {
     question: "What should I type on Waze to visit your clinic?",
     answer:
       "On Waze, just type 'Klinik Menggatal'. We are located at Lorong Pekan Menggatal 1.",
   },
-  {
-    question: "Do you have Instagram?",
-    answer: (
-      <>
-        Yes, we do, and we are active there. Join our community{" "}
-        <Link href="https://www.instagram.com/klinik_menggatal_dr_je/?igsh=d2d5MTB4ODlscWtp&fbclid=IwAR0KWxlpXu4HziZ2fN4W5UWU3jycYjn-dUG6Mb0_-peM5ydput94A-VThLk">
-          <strong className="underline">HERE</strong>
-        </Link>
-        .
-      </>
-    ),
-  },
+  // {
+  //   question: "Do you have Instagram?",
+  //   answer: (
+  //     <>
+  //       Yes, we do, and we are active there. Join our community{" "}
+  //       <Link href="https://www.instagram.com/klinik_menggatal_dr_je/?igsh=d2d5MTB4ODlscWtp&fbclid=IwAR0KWxlpXu4HziZ2fN4W5UWU3jycYjn-dUG6Mb0_-peM5ydput94A-VThLk">
+  //         <strong className="underline">HERE</strong>
+  //       </Link>
+  //       .
+  //     </>
+  //   ),
+  // },
   {
     question: "Do you accept new patients?",
     answer: "Yes, new patients are welcome!",

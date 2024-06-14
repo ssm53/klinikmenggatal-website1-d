@@ -7,15 +7,15 @@ const Partners = () => (
     <Marquee className="my-8">
       <div className="px-20">
         <img
-          src="./svgs/aig-logo.jpg"
-          width={400}
-          height={400}
+          src="./svgs/menggatal-uitm.png"
+          width={270}
+          height={270}
           alt="partner1"
         ></img>
       </div>
       <div className="px-20">
         <img
-          src="./svgs/aia-logo.jpg"
+          src="./svgs/menggatal-sesb.jpeg"
           width={400}
           height={400}
           alt="partner2"
@@ -23,23 +23,23 @@ const Partners = () => (
       </div>
       <div className="px-20">
         <img
-          src="./svgs/micare-logo.jpg"
-          width={400}
-          height={400}
+          src="./svgs/menggatal-mitsubishi.jpeg"
+          width={270}
+          height={270}
           alt="partner3"
         ></img>
       </div>
       <div className="px-20">
         <img
-          src="./svgs/pmcare-logo.jpg"
-          width={400}
-          height={400}
+          src="./svgs/menggatal-spa.png"
+          width={270}
+          height={270}
           alt="partner4"
         ></img>
       </div>
       <div className="px-20">
         <img
-          src="./svgs/redalertlogo.jpg"
+          src="./svgs/menggatal-sepanggar.jpeg"
           width={400}
           height={400}
           alt="partner5"

@@ -27,7 +27,10 @@ const Address = () => {
             </div>
             <p>Monday-Friday : 8AM - 1230PM, 2PM - 5PM</p>
             <p>Saturday : 8AM - 1230PM</p>
-            <p>Sunday & Public Holiday : Closed</p>
+            <p>Sunday : Closed</p>
+            <p>
+              Public Holidays : We may be open. Please call/whatsapp us. Thanks!
+            </p>
           </div>
           <div className="pt-6">
             <div className="flex items-center font-bold">
@@ -40,13 +43,16 @@ const Address = () => {
             <div className="flex items-center font-bold">
               <FiMail className="mr-2" />
               <p>
-                <a href="mailto:klinikX@gmail.com" className="blue-hover">
+                <a
+                  href="mailto:klinikmenggatal@gmail.com"
+                  className="blue-hover"
+                >
                   Email
                 </a>
               </p>
             </div>
             <a href="mailto:klinikX@gmail.com" className="blue-hover">
-              klinikX@gmail.com
+              klinikmenggatal@gmail.com
             </a>
           </div>
           <div className=" pt-6 ">
