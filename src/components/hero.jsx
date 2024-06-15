@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+// instead of klnikmenggtatal logo, it used to be /svgs/edited.png'
 
 const Hero = () => {
   return (
-    <StyledSection className="bg-[url('/svgs/edited.png')] h-screen ">
-      <StyledHeadingContainer className="flex-col text-dark pt-5">
+    <StyledSection className="bg-[url('/svgs/klinikmenggatal-logo.jpeg')] h-screen ">
+      {/* <StyledHeadingContainer className="flex-col text-dark pt-5">
         <motion.h2
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -39,7 +40,7 @@ const Hero = () => {
         >
           Since 1986
         </motion.h2>
-      </StyledHeadingContainer>
+      </StyledHeadingContainer> */}
     </StyledSection>
   );
 };
