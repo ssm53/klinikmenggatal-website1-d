@@ -58,7 +58,7 @@ const StyledSection = styled.section`
   background-repeat: no-repeat;
   /* background-image: url(""); */
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   @media (max-width: 768px) {
     align-items: center;
     padding-bottom: 0;
