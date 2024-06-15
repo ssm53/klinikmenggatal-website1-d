@@ -14,6 +14,8 @@ import SendUsInquiry from "@/components/send-us-inquiry";
 import Partners from "@/components/partners";
 import Link from "next/link";
 
+// the bg colour was "#1E1E1E" before i changed it
+
 const faqs = [
   {
     question: "How long has Klinik Menggatal been running for?",
@@ -49,12 +51,14 @@ const faqs = [
 
 export default function Home() {
   return (
-    <main style={{ margin: "0 auto", background: "#1E1E1E" }}>
-      <div id="home">
+    <main style={{ margin: "0 auto", background: "#8b53ff" }}>
+      <div className="bg-[#8b53ff] h-14"></div>
+      <div id="home" className="pt-5">
         <Hero />
       </div>
       <StyledServicesCardWrapper id="services">
         <Headings
+          className="bg-[#8b53ff]"
           title="Our Services"
           description=" Welcome to our clinic, where your health and well-being come first. Since 1986, we've been dedicated to providing affordable healthcare for all. Our experienced and compassionate team offers a comprehensive range of medical services to meet your healthcare needs. Discover our services below and see how we can help you achieve optimal health."
         />
@@ -100,12 +104,19 @@ export default function Home() {
   );
 }
 
+// const StyledServicesCardWrapper = styled.div`
+//   background-color: #1e1e1e;
+//   color: white;
+// `;
 const StyledServicesCardWrapper = styled.div`
-  background-color: #1e1e1e;
+  background-color: #8b53ff;
   color: white;
 `;
+// const StyledClinicWrapper = styled.div`
+//   background-color: #1e1e1e;
+// `;
 const StyledClinicWrapper = styled.div`
-  background-color: #1e1e1e;
+  background-color: #8b53ff;
 `;
 
 const StyledMapParent = styled.div`
@@ -136,6 +147,6 @@ const StyledFaqWrapper = styled.div`
 `;
 
 const StyledContactUsWrapper = styled.div`
-  background-color: #1e1e1e;
+  background-color: #8b53ff;
   color: white;
 `;

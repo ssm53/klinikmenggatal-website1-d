@@ -73,6 +73,7 @@ export default ServicesPage;
 const StyledWrapper = styled.div`
   padding: 7rem 0;
   padding-top: 10rem;
+  background-color: #8b53ff;
   @media (max-width: 768px) {
     .flex-wrap {
       flex-direction: column;

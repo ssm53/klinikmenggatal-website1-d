@@ -89,7 +89,7 @@ function MultipleItems() {
 export default MultipleItems;
 
 const StyledWrapper = styled.div`
-  background-color: #1e1e1e;
+  background-color: #8b53ff;
   width: 100%;
 `;
 const StyledSlider = styled(Slider)`

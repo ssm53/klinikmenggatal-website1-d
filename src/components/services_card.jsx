@@ -93,7 +93,7 @@ export default ServicesCard;
 const StyledWrapper = styled.div`
   width: 90%;
   margin: 0 auto;
-  background-color: #1e1e1e;
+  background-color: #8b53ff;
   color: white;
 `;
 const StyledHeading = styled.h2`

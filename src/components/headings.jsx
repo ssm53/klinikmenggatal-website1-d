@@ -51,6 +51,6 @@ const StyledHeading = styled(motion.h2)`
   /* padding-top: 2rem; */
 `;
 const StyledHeadingWrapper = styled.div`
-  background-color: #1e1e1e;
+  background-color: #8b53ff;
   color: white;
 `;
