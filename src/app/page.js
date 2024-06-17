@@ -48,6 +48,7 @@ const faqs = [
     answer: "Yes, new patients are welcome!",
   },
 ];
+//
 
 export default function Home() {
   return (

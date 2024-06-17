@@ -51,7 +51,7 @@ function MultipleItems() {
       <StyledSlider {...settings}>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/slider-pic1.png"
+            src="/svgs/test-slider-pic1.png"
             alt="doctor"
             width={350}
             height={350}
