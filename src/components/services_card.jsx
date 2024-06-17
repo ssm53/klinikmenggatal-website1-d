@@ -35,7 +35,7 @@ const ServiceCard = ({ icon, header, body, id }) => {
       <StyledCard className=" p-7 my-1" fullWidth>
         <CardHeader className="flex flex-col justify-center items-center">
           {icon}
-          <StyledHeading>{header}</StyledHeading>
+          <StyledHeading className="text-center">{header}</StyledHeading>
         </CardHeader>
         <CardBody className="text-center">
           <p>{body}</p>
