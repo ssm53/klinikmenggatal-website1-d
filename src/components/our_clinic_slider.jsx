@@ -51,7 +51,7 @@ function MultipleItems() {
       <StyledSlider {...settings}>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/doctors.jpg"
+            src="/svgs/slider-pic1.png"
             alt="doctor"
             width={350}
             height={350}
@@ -59,7 +59,7 @@ function MultipleItems() {
         </StyledImageContainer>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/operation.jpg"
+            src="/svgs/slider-pic2.png"
             alt="doctor"
             width={350}
             height={350}
@@ -67,7 +67,7 @@ function MultipleItems() {
         </StyledImageContainer>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/baby.jpg"
+            src="/svgs/slider-pic3.png"
             alt="doctor"
             width={350}
             height={350}
@@ -75,7 +75,23 @@ function MultipleItems() {
         </StyledImageContainer>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/baby.jpg"
+            src="/svgs/slider-pic4.png"
+            alt="doctor"
+            width={350}
+            height={350}
+          />
+        </StyledImageContainer>
+        <StyledImageContainer>
+          <StyledImage
+            src="/svgs/slider-pic5.png"
+            alt="doctor"
+            width={350}
+            height={350}
+          />
+        </StyledImageContainer>
+        <StyledImageContainer>
+          <StyledImage
+            src="/svgs/slider-pic6.png"
             alt="doctor"
             width={350}
             height={350}

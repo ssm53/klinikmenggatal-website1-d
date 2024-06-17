@@ -22,57 +22,57 @@ const TeamCardList = () => {
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team1.jpg",
+      imageUrl: "./svgs/team-drje.png",
     },
     {
       title: "Dr Joan",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team2.jpg",
+      imageUrl: "./svgs/team-drjoan.png",
     },
     {
-      title: "Dr X",
+      title: "Mrs Nurse 1",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team3.jpg",
+      imageUrl: "./svgs/team-nurse1.png",
     },
     {
-      title: "Dr X",
+      title: "Mrs Nurse 2",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team4.jpg",
+      imageUrl: "./svgs/team-nurse2.png",
     },
     {
-      title: "Dr John Doe",
+      title: "Mrs Nurse 3",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team5.jpg",
+      imageUrl: "./svgs/team-nurse3.png",
     },
-    {
-      title: "Dr John Doe",
-      subtitle: "MBBS, Mangalore",
-      tracks:
-        "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team6.jpg",
-    },
-    {
-      title: "Dr John Doe",
-      subtitle: "MBBS, Mangalore",
-      tracks:
-        "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team7.jpg",
-    },
-    {
-      title: "Dr John Doe",
-      subtitle: "MBBS, Mangalore",
-      tracks:
-        "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team8.jpg",
-    },
+    // {
+    //   title: "Dr John Doe",
+    //   subtitle: "MBBS, Mangalore",
+    //   tracks:
+    //     "I love to save lives and that gives me passion to wake up every morning",
+    //   imageUrl: "./svgs/team-nurse4.png",
+    // },
+    // {
+    //   title: "Dr John Doe",
+    //   subtitle: "MBBS, Mangalore",
+    //   tracks:
+    //     "I love to save lives and that gives me passion to wake up every morning",
+    //   imageUrl: "./svgs/team7.jpg",
+    // },
+    // {
+    //   title: "Dr John Doe",
+    //   subtitle: "MBBS, Mangalore",
+    //   tracks:
+    //     "I love to save lives and that gives me passion to wake up every morning",
+    //   imageUrl: "./svgs/team8.jpg",
+    // },
   ];
 
   return (
@@ -92,6 +92,7 @@ const TeamCardList = () => {
             <Image
               alt="Card background"
               className="object-cover rounded-xl"
+              // src={card.imageUrl}
               src={card.imageUrl}
               width={270}
             />

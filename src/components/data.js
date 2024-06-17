@@ -4,8 +4,8 @@ const cardsData = [
   {
     id: "1",
     icon: <CiHospital1 size={80} />,
-    header: "Health Screening",
-    body: "Comprehensive health screening services to detect early signs of disease and promote overall wellness. Includes blood tests, imaging, and physical examinations.",
+    header: "Outpatient Treatment and Emergency Treatment",
+    body: "Professional and immediate care for non-life-threatening conditions, as well as urgent medical attention for emergencies. Services include diagnostics, minor procedures, and comprehensive follow-ups.",
     jobs1:
       "Our Health Screening service is designed to provide a thorough assessment of your overall health. This service includes:",
     jobs2:
@@ -20,8 +20,8 @@ const cardsData = [
   {
     id: "2",
     icon: <CiHospital1 size={80} />,
-    header: "Wound Care",
-    body: "Expert wound care services to ensure proper healing and prevent complications. Includes treatment of acute and chronic wounds.",
+    header: "Infant and Child Treatment",
+    body: "Comprehensive medical care for infants and children, ensuring their healthy growth and development. Services include routine check-ups, immunizations, and treatment of common pediatric illnesses.",
     jobs1:
       "Our Wound Care service is dedicated to providing comprehensive treatment and management of various types of wounds. This service includes:",
     jobs2:
@@ -36,8 +36,8 @@ const cardsData = [
   {
     id: "3",
     icon: <CiHospital1 size={80} />,
-    header: "Minor Surgery",
-    body: "Professional minor surgery services for various small-scale surgical procedures in a safe and sterile environment.",
+    header: "Pregnant Mother Examination and Antenatal Care",
+    body: "Ultrasound services for pregnant mothers, providing detailed imaging and monitoring of the baby's development. Follow up for antenatal care and risk screening available.",
     jobs1:
       "Our Minor Surgery service offers expert care for a variety of minor surgical procedures. This service includes:",
     jobs2:
@@ -52,8 +52,8 @@ const cardsData = [
   {
     id: "4",
     icon: <CiHospital1 size={80} />,
-    header: "Rapid Test",
-    body: "Quick and reliable rapid test services to diagnose various conditions and ensure timely treatment.",
+    header: "Mental health check up and counselling",
+    body: "Strategies tomanage and improve mental well-being",
     jobs1:
       "Our Rapid Test service provides fast and accurate diagnostic tests to help detect a range of conditions. This service includes:",
     jobs2:
@@ -68,8 +68,8 @@ const cardsData = [
   {
     id: "5",
     icon: <CiHospital1 size={80} />,
-    header: "Foreign Worker Check Up (FOMEMA)",
-    body: "Comprehensive medical examinations for foreign workers to ensure they meet health standards and comply with FOMEMA requirements.",
+    header: "Ultrasound, and ECG",
+    body: "Comprehensive diagnostic imaging and cardiac monitoring services including, Ultrasound and ECG to accurately diagnose and monitor various health conditions.",
     jobs1:
       "Our Foreign Worker Check Up (FOMEMA) service ensures that foreign workers undergo thorough health assessments as per regulatory standards. This service includes:",
     jobs2:
@@ -84,8 +84,8 @@ const cardsData = [
   {
     id: "6",
     icon: <CiHospital1 size={80} />,
-    header: "Pre-employment Check Up",
-    body: "Comprehensive medical examinations to assess the health and fitness of prospective employees before they start work.",
+    header: "House Call",
+    body: "Convenient and comprehensive medical care services provided in the comfort of your home, including consultations, treatments, and follow-ups.",
     jobs1:
       "Our Pre-employment Check Up service is designed to ensure that prospective employees are in good health and fit for their intended roles. This service includes:",
     jobs2:
@@ -100,8 +100,8 @@ const cardsData = [
   {
     id: "7",
     icon: <CiHospital1 size={80} />,
-    header: "Hypertension & Diabetic Care",
-    body: "Comprehensive care for managing hypertension and diabetes, including monitoring, treatment, and lifestyle advice.",
+    header: "Minor Surgery, Wound Care, and Cleaning",
+    body: "Specialized medical procedures for minor surgical interventions, wound care management, and wound cleaning to promote healing and prevent infections.",
     jobs1:
       "Our Hypertension & Diabetic Care service is dedicated to helping patients manage and control their blood pressure and blood sugar levels effectively. This service includes:",
     jobs2:
@@ -116,8 +116,8 @@ const cardsData = [
   {
     id: "8",
     icon: <CiHospital1 size={80} />,
-    header: "Insurance Check Up",
-    body: "Comprehensive health assessment tailored for insurance purposes, ensuring that all required medical examinations and tests are conducted.",
+    header: "Medical Checkup for Pre-Employment or Pre-University ",
+    body: "Comprehensive medical checkup and survey services to assess overall health status essential before your start of work or schooling needs.",
     jobs1:
       "Our Insurance Check Up service is designed to fulfill the medical requirements for insurance coverage. This service includes:",
     jobs2:
@@ -132,8 +132,8 @@ const cardsData = [
   {
     id: "9",
     icon: <CiHospital1 size={80} />,
-    header: "Nebulizer for Asthma",
-    body: "Comprehensive nebulizer therapy for the management of asthma symptoms, providing relief and improving respiratory function.",
+    header: "Blood & Urine Test, Vaccination and Immunisation",
+    body: "Comprehensive blood and urine tests, vaccination, and immunisation services to monitor health indicators, prevent diseases, and promote immunological health.",
     jobs1:
       "Our Nebulizer for Asthma service offers advanced nebulizer therapy to effectively manage asthma symptoms. This service includes:",
     jobs2:
@@ -148,8 +148,24 @@ const cardsData = [
   {
     id: "10",
     icon: <CiHospital1 size={80} />,
-    header: "IV Drip Treatment",
-    body: "Intravenous (IV) drip therapy for rapid hydration and delivery of essential nutrients, vitamins, and medications directly into the bloodstream.",
+    header: "Nebulizer, Suctioning, and IV Drip",
+    body: "Advanced respiratory treatments and intravenous therapies to manage respiratory conditions and deliver essential medications directly into the bloodstream.",
+    jobs1:
+      "Our IV Drip Treatment service offers a range of intravenous therapies tailored to individual needs. This service includes:",
+    jobs2:
+      "Hydration Therapy: Rapid rehydration using IV fluids to replenish electrolytes, fluids, and nutrients lost due to dehydration, illness, or strenuous activity.",
+    jobs3:
+      "Vitamin Infusions: Delivery of high-dose vitamins and minerals directly into the bloodstream to support immune function, energy levels, and overall wellness.",
+    jobs4:
+      "Medication Administration: Administration of medications via IV drip for efficient and precise delivery, ensuring optimal therapeutic effects.",
+    jobs5:
+      "Customized Formulations: Tailored IV drip formulations based on specific health goals, medical conditions, and nutritional needs, with options for additional additives such as antioxidants and amino acids.",
+  },
+  {
+    id: "11",
+    icon: <CiHospital1 size={80} />,
+    header: "Tracheostomy Care, Ryles Tube, CBD",
+    body: "Specialized care for patients with tracheostomy tubes and enteral feeding tubes (Ryles Tube) to ensure proper management and support of respiratory and nutritional needs.",
     jobs1:
       "Our IV Drip Treatment service offers a range of intravenous therapies tailored to individual needs. This service includes:",
     jobs2:
