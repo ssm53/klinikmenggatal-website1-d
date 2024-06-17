@@ -41,9 +41,9 @@ const ServiceCard = ({ icon, header, body, id }) => {
           <p>{body}</p>
         </CardBody>
         <CardFooter className="flex justify-center pt-8">
-          <Link href={`/services/${id}`}>
+          {/* <Link href={`/services/${id}`}>
             <StyledButton>Learn More</StyledButton>
-          </Link>
+          </Link> */}
         </CardFooter>
       </StyledCard>
     </motion.div>
