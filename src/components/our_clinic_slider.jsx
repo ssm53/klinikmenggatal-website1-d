@@ -59,7 +59,7 @@ function MultipleItems() {
         </StyledImageContainer>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/slider-pic2.png"
+            src="/svgs/test-slider-pic2.png"
             alt="doctor"
             width={350}
             height={350}
@@ -67,7 +67,7 @@ function MultipleItems() {
         </StyledImageContainer>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/slider-pic3.png"
+            src="/svgs/test-slider-pic3.png"
             alt="doctor"
             width={350}
             height={350}
@@ -75,7 +75,7 @@ function MultipleItems() {
         </StyledImageContainer>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/slider-pic4.png"
+            src="/svgs/test-slider-pic4.png"
             alt="doctor"
             width={350}
             height={350}
@@ -83,7 +83,7 @@ function MultipleItems() {
         </StyledImageContainer>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/slider-pic5.png"
+            src="/svgs/test-slider-pic5.png"
             alt="doctor"
             width={350}
             height={350}
@@ -91,7 +91,7 @@ function MultipleItems() {
         </StyledImageContainer>
         <StyledImageContainer>
           <StyledImage
-            src="/svgs/slider-pic6.png"
+            src="/svgs/test-slider-pic6.png"
             alt="doctor"
             width={350}
             height={350}

@@ -18,39 +18,36 @@ const TeamCardList = () => {
   }, [controls, inView]);
   const cardsData = [
     {
-      title: "Dr Je",
+      title: "Dr Je Chin Zen",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team-drje.png",
+      imageUrl: "./svgs/test-team-drje.png",
     },
     {
-      title: "Dr Joan",
+      title: "Dr Joan John",
       subtitle: "MBBS, Mangalore",
       tracks:
         "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team-drjoan.png",
+      imageUrl: "./svgs/test-team-drjoan.png",
     },
     {
-      title: "Mrs Nurse 1",
-      subtitle: "MBBS, Mangalore",
-      tracks:
-        "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team-nurse1.png",
+      title: "Shirley Pan",
+      subtitle: "",
+      tracks: "Strive for Excellence",
+      imageUrl: "./svgs/test-team-nurse1.png",
     },
     {
-      title: "Mrs Nurse 2",
-      subtitle: "MBBS, Mangalore",
-      tracks:
-        "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team-nurse2.png",
+      title: "Anne Ben",
+      subtitle: "",
+      tracks: "Do what makes you happy",
+      imageUrl: "./svgs/test-team-nurse2.png",
     },
     {
-      title: "Mrs Nurse 3",
-      subtitle: "MBBS, Mangalore",
-      tracks:
-        "I love to save lives and that gives me passion to wake up every morning",
-      imageUrl: "./svgs/team-nurse3.png",
+      title: "⁠Heazhel Erica",
+      subtitle: "",
+      tracks: "Cherish everyday, be grateful always",
+      imageUrl: "./svgs/test-team-nurse3.png",
     },
     // {
     //   title: "Dr John Doe",
