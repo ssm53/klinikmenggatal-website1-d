@@ -33,19 +33,19 @@ const TeamCardList = () => {
     },
     {
       title: "Shirley Pan",
-      subtitle: "",
+      subtitle: " ",
       tracks: "Strive for Excellence",
       imageUrl: "./svgs/test-team-nurse1.png",
     },
     {
       title: "Anne Ben",
-      subtitle: "",
+      subtitle: " ",
       tracks: "Do what makes you happy",
       imageUrl: "./svgs/test-team-nurse2.png",
     },
     {
       title: "⁠Heazhel Erica",
-      subtitle: "",
+      subtitle: " ",
       tracks: "Cherish everyday, be grateful always",
       imageUrl: "./svgs/test-team-nurse3.png",
     },
@@ -98,9 +98,7 @@ const TeamCardList = () => {
               <p className="text-tiny uppercase font-bold pt-2">
                 {card.subtitle}
               </p>
-              <small className="text-default-500 pt-2">
-                {card.tracks} Tracks
-              </small>
+              <small className="text-default-500 pt-2">{card.tracks}</small>
             </CardHeader>
             <CardBody className="overflow-visible py-2"></CardBody>
           </StyledCard>
