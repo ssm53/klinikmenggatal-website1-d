@@ -19,16 +19,14 @@ const TeamCardList = () => {
   const cardsData = [
     {
       title: "Dr Je Chin Zen",
-      subtitle: "MBBS, Mangalore",
-      tracks:
-        "I love to save lives and that gives me passion to wake up every morning",
+      subtitle: "MD, UMS",
+      tracks: "The greatest wealth is health",
       imageUrl: "./svgs/test-team-drje.png",
     },
     {
       title: "Dr Joan John",
-      subtitle: "MBBS, Mangalore",
-      tracks:
-        "I love to save lives and that gives me passion to wake up every morning",
+      subtitle: "MD, UMS",
+      tracks: "Your mental health matters, don't be afraid to talk about it",
       imageUrl: "./svgs/test-team-drjoan.png",
     },
     {
