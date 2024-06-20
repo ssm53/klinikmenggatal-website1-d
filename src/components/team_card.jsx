@@ -18,7 +18,7 @@ const TeamCardList = () => {
   }, [controls, inView]);
   const cardsData = [
     {
-      title: "Dr Je Chin Zen",
+      title: "Dr Je Chin Zhen",
       subtitle: "MD, UMS",
       tracks: "The greatest wealth is health",
       imageUrl: "./svgs/test-team-drje.png",
