@@ -45,6 +45,22 @@ const Partners = () => (
           alt="partner5"
         ></img>
       </div>
+      <div className="px-20">
+        <img
+          src="./svgs/mednefits-logo-real.png"
+          width={400}
+          height={400}
+          alt="partner6"
+        ></img>
+      </div>
+      <div className="px-20">
+        <img
+          src="./svgs/peka-b40-logo-real.png"
+          width={400}
+          height={400}
+          alt="partner7"
+        ></img>
+      </div>
     </Marquee>
   </div>
 );
